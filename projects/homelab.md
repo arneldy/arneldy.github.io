@@ -10,6 +10,8 @@ Current servers:
 2. Raspberry Pi Zero W server
 3. Raspberry Pi 3B+ server
 
+![Server](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/homelab/server.jpg)
+
 #### 1.0 Ubuntu Server
 
 I converted an old laptop from 2014 with dead pixels in the screen into a server. Since it runs headless, the dead pixels aren't a problem.
