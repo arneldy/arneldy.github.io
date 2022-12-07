@@ -36,7 +36,7 @@ Current services I run on it:
 - Docker-Compose makes it easy to spin up, modify, and spin down images.
 
 ```bash
-sudo apt install docker && docker-compose -y
+sudo apt install docker && apt install docker-compose -y
 ```
 
 #### 1.2 Uptime Kuma
