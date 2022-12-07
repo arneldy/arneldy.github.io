@@ -27,9 +27,9 @@ Current services I run on it:
 10. Synthing
 11. rsync
 
-{% include image.html image="projects/homelab/server.jpg" %}
+{% image="projects/homelab/server.jpg" %}
 
-##### 1.1 Docker
+#### 1.1 Docker
 - All services are virtualized using Docker.
 - Docker-Compose makes it easy to spin up, modify, and spin down images.
 
@@ -37,7 +37,7 @@ Current services I run on it:
 sudo apt install docker && docker-compose -y
 ```
 
-##### 1.2 Uptime Kuma
+#### 1.2 Uptime Kuma
 - Monitor services to see if they go down.
 
 ```
@@ -52,7 +52,7 @@ uptime-kuma:
 
 ```
 
-##### 1.3 Combustion
+#### 1.3 Combustion
 - Download and seed Linux ISO's.
 
 ```
@@ -75,7 +75,7 @@ transmission:
     restart: unless-stopped
 ```
 
-##### 1.4 Filebrowser
+#### 1.4 Filebrowser
 - Browse files in a web browser.
 
 ```
