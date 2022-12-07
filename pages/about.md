@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-# Hey! I'm Arnel.
+# Hey, I'm Arnel.
 
 I'm an Anatomic and Clinical Pathologist from the Philippines.
 
