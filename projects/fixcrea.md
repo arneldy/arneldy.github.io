@@ -4,11 +4,11 @@ title: 'FixCrea'
 ---
 FixCrea uses an Extreme Gradient Boosting model to closely approximate an enzymatically-derived result for a given Jaffe-based creatinine result.
 
-A free calculator written with Python and Flask can be found at [https://fixcrea.com] along with the abstract.
+A free calculator written with Python and Flask can be found [here](https://fixcrea.com) along with the abstract.
 
-The github project site with the Jupyter note file and data can be found at [https://github.com/fixcrea/fixcrea].
+The github project site with the Jupyter note file and data can be found [here](https://github.com/fixcrea/fixcrea).
 
-## Features
+#### Features
 - Simple and easy-to-use user interface.
 - Works with any browser.
 - Mobile ready.
