@@ -13,7 +13,7 @@ menu:
 projects:
 - {name: 'FixCrea',   url: 'fixcrea'}
 - {name: 'FixCrea Offline',   url: 'fixcrea_offline'}
-- {name: 'HistopathLogger', url: 'histopath_logger'}
+- {name: 'Histopath Logger', url: 'histopath_logger'}
 - {name: 'Homelab',  url: 'homelab'}
 - {name: 'Garden',  url: 'garden'}
 

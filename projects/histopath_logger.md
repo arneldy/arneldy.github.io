@@ -13,4 +13,4 @@ Just a command line executable. Nothing fancy.
 
 The github site can be found [here](https://github.com/arneldy/histopath_logger).
 
-{% include image.html url="http://www.gratisography.com" image="projects/histopath_logger/demo.jpg" %}
+{% include image.html url="https://github.com/arneldy/histopath_logger" image="projects/histopath_logger/demo.jpg" %}
