@@ -8,5 +8,5 @@ plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "Arnel Dy's Portfolio"
-description: "A Pathologist and hist many interests."
+description: "A Pathologist who loves tinkering."
 author:      "Arnel Dy"
