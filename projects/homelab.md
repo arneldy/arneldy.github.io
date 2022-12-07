@@ -217,7 +217,7 @@ syncthing:
 - crontab -e bash script for automated NAS back-up.
 
 #### 2.0 Pi-Zero
-Power directly by my router, so both turn on and off at the same time.
+Powered directly by my router, so both turn on and off at the same time.
 
 Current services I run on it:
 1. Pi-Hole
