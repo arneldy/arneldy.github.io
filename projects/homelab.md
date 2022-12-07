@@ -27,7 +27,7 @@ Current services I run on it:
 10. Synthing
 11. rsync
 
-{% image="projects/homelab/server.jpg" %}
+![Server](projects/homelab/server.jpg)
 
 #### 1.1 Docker
 - All services are virtualized using Docker.
