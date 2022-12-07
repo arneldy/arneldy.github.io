@@ -27,7 +27,7 @@ Current services I run on it:
 10. Synthing
 11. rsync
 
-![Server](projects/homelab/server.jpg)
+![Server](https://github.com/arneldy/arneldy.github.io/blob/956810d882daa4e38ea3432e9514979461e8a65d/assets/img/projects/homelab/server.jpg)
 
 #### 1.1 Docker
 - All services are virtualized using Docker.
