@@ -6,9 +6,9 @@ title: 'Homelab'
 Documentation for my homelab servers.
 
 Current servers:
-1. [Ubuntu server](#1.0-ubuntu-server)
-2. [Raspberry Pi Zero W server](#2.0-pi-zero)
-3. [Raspberry Pi 3B+ server](#3.0-pi-3b+)
+1. Ubuntu server
+2. Raspberry Pi Zero W server
+3. Raspberry Pi 3B+ server
 
 ![Server](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/homelab/server.jpg)
 
@@ -35,7 +35,7 @@ Current services I run on it:
 - All services are virtualized using Docker.
 - Docker-Compose makes it easy to spin up, modify, and spin down images.
 
-```
+```bash
 sudo apt install docker && docker-compose -y
 ```
 
