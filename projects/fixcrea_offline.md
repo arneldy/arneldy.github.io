@@ -15,4 +15,4 @@ The github project site with the Jupyter note file and data can be found [here](
 - Compatible with SI units (umol/L) or conventional units (mg/dL) with a conversion factor of 88.4.
 - Help and tooltips available on web page: just hover your mouse cursor over parts of the page.
 
-{% include image.html url="https://github.com/fixcrea/fixcrea_offline" image="projects/fixcrea_offline/demo.jpg" %}
+{% include image.html url="https://fixcrea.github.io/fixcrea_offline/" image="projects/fixcrea_offline/demo.jpg" %}
