@@ -6,4 +6,4 @@ permalink: /contact
 
 # Contact
 
-You can reach me via email at [hello@arneldy.com](mailto:hello@arneldy.com).
+You can email at [hello@arneldy.com](mailto:hello@arneldy.com).
