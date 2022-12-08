@@ -242,36 +242,36 @@ syncthing:
 
 1. Install TLP.
 
-```s
-sudo apt install tlp
-```
+    ```s
+    sudo apt install tlp
+    ```
 
 2. Make configuration file.
 
-```s
-mkdir -p /etc/tlp.d
-cp /etc/tlp.conf /etc/tlp.d/01-myconfig.conf
-```
+    ```s
+    mkdir -p /etc/tlp.d
+    cp /etc/tlp.conf /etc/tlp.d/01-myconfig.conf
+    ```
 
 3. Configure.
 
-```
-#Set to 0 to disable, 1 to enable TLP.
-#Default: 1
-#TLP_ENABLE=1
-```
+    ```
+    #Set to 0 to disable, 1 to enable TLP.
+    #Default: 1
+    #TLP_ENABLE=1
+    ```
 
 4. Start service.
 
-```s
-sudo tlp start
-```
+    ```s
+    sudo tlp start
+    ```
 
 5. Monitor service.
 
-```s
-sudo tlp-stat -s -c -b
-```
+    ```s
+    sudo tlp-stat -s -c -b
+    ```
 
 #### 2.0 Pi-Zero
 Powered directly by my router, so both turn on and off at the same time.
