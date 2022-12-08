@@ -35,8 +35,26 @@ Current services I run on it:
 - All services are virtualized using Docker.
 - Docker-Compose makes it easy to spin up, modify, and spin down images.
 
-```bash
+1. Install Docker and Docker-Compose.
+```s
 sudo apt install docker && apt install docker-compose -y
+```
+
+2. Make a docker-compose.yml (see configuration files per service below for examples).
+3. Navigate to folder containing docker-compose.yml.
+4. Spin up docker volumes.
+```s
+sudo docker-compose up -d
+```
+
+5. Update images as needed.
+```s
+sudo docker-compose up --build --force-recreate -d
+```
+
+6. Spin down docker volumes.
+```s
+sudo docker-compose down
 ```
 
 #### 1.2 Uptime Kuma
@@ -215,6 +233,40 @@ syncthing:
 #### 1.11 rsync
 - CLI file transfer.
 - crontab -e bash script for automated NAS back-up.
+
+#### 1.12 TLP
+- Battery management, good for laptops that are always plugged in.
+- A plus for laptops turned into servers is that the battery is effectivelya UPS.
+- Can set to charge max 60%.
+
+1. Install TLP.
+```s
+sudo apt install tlp
+```
+
+2. Make configuration file.
+```s
+mkdir -p /etc/tlp.d
+cp /etc/tlp.conf /etc/tlp.d/01-myconfig.conf
+```
+
+3. Configure.
+```s
+# Set to 0 to disable, 1 to enable TLP.
+# Default: 1
+
+#TLP_ENABLE=1
+```
+
+4. Start service.
+```s
+sudo tlp start
+```
+
+5. Monitor service.
+```s
+sudo tlp-stat -s -c -b
+```
 
 #### 2.0 Pi-Zero
 Powered directly by my router, so both turn on and off at the same time.
