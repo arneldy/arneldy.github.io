@@ -251,7 +251,7 @@ cp /etc/tlp.conf /etc/tlp.d/01-myconfig.conf
 ```
 
 3. Configure.
-```s
+```
 # Set to 0 to disable, 1 to enable TLP.
 # Default: 1
 
