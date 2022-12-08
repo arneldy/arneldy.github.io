@@ -9,7 +9,7 @@ Paps Logger does the same thing but is made to read Pap smear reports.
 
 It's a script I wrote during residency when the laboratory needed a way to quickly log a number of old reports written in Word doc and docx format.
 
-Just a command line executable. Nothing fancy.
+Just a simple executable. Nothing fancy.
 
 The github site can be found [here](https://github.com/arneldy/histopath_logger).
 
