@@ -14,7 +14,7 @@ Current servers:
 
 #### 1.0 Ubuntu Server
 
-I converted an old laptop from 2014 with dead pixels in the screen into a server. Since it runs headless, the dead pixels aren't a problem.
+I converted an old laptop I bought back in 2014 into a server. I decommissioned it from work after 6 or so years because of the dead pixels on the screen. Since a server can run headless, it's not a big problem.
 
 Current services I run on it:
 1. Docker
@@ -28,6 +28,7 @@ Current services I run on it:
 9. Tailscale
 10. Synthing
 11. rsync
+12. TLP
 
 ![Server](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/homelab/thumbnail.jpg)
 
@@ -236,7 +237,7 @@ syncthing:
 
 #### 1.12 TLP
 - Battery management, good for laptops that are always plugged in.
-- A plus for laptops turned into servers is that the battery is effectivelya UPS.
+- A plus for laptops turned into servers is that the battery is effectively a UPS.
 - Can set to charge max 60%.
 
 1. Install TLP.
