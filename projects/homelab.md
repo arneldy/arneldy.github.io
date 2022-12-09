@@ -138,14 +138,14 @@ jellyfin:
 - Can code and run programs remotely.
 
 ```
-  jupyter:
-      image: jupyter/scipy-notebook:latest
-      container_name: jupyter
-      ports:
+jupyter:
+    image: jupyter/scipy-notebook:latest
+    container_name: jupyter
+    ports:
         - <Host Port>:8888
-      volumes:
+    volumes:
         - [local folder path]:/home/jovyan/work
-      environment:
+    environment:
         JUPYTER_ENABLE_LAB: "yes"
         JUPYTER_TOKEN: "[password]"
 ```
@@ -168,7 +168,8 @@ kavita:
 ```
 
 #### 1.8 Pi-Hole
-- Blocks ads and malware on the network level.
+- Blocks ads and malware at the domain level, so you never download them to begin with.
+- [https://pi-hole.net/](https://pi-hole.net/)
 
 ```
 pihole:
@@ -192,18 +193,21 @@ pihole:
 
 #### 1.9 Tailscale
 - Easy internal VPN.
+- Sign up with github or gmail account.
+- [https://tailscale.com/](https://tailscale.com/)
+- Combine with Pi-Hole and phone app for VPN security and ad blocking while outisde.
 
 ```
 tailscale:
     privileged: true
-    hostname: tailscale                                          # This will become the tailscale device name
+    hostname: tailscale                                     # This will become the tailscale device name
     network_mode: "host"
     container_name: tailscale
     image: tailscale/tailscale:latest
     volumes:
-        - "[local folder path]/tailscale/var_lib:/var/lib"        # State data will be stored in this directory
-        - "/dev/net/tun:/dev/net/tun"                      # Required for tailscale to work
-    cap_add:                                               # Required for tailscale to work
+        - "[local folder path]/tailscale/var_lib:/var/lib"  # State data will be stored in this directory
+        - "/dev/net/tun:/dev/net/tun"                       # Required for tailscale to work
+    cap_add:                                                # Required for tailscale to work
         - net_admin
         - sys_module
     command: tailscaled
@@ -213,6 +217,7 @@ tailscale:
 
 #### 1.10 Synthing
 - Synchronize and mirror files.
+- Download phone app to back-up and sync cellphone.
 
 ```
 syncthing:
@@ -239,6 +244,38 @@ syncthing:
 - CLI file transfer.
 - crontab -e bash script for automated NAS back-up.
 
+1. Make an empty bash script file, example here is named backup.sh.
+    ```s
+    nano backup.sh
+    ```
+
+2. Open the bash script file and use the following commands from the template below.
+    ```s
+    #!/bin/sh
+    rsync -avz [put folder path of what you want to back up] [put folder path of where you want it backed up] #command for additive back-up, i.e. if you deleted the file in the originating folder, the file won't be deleted in the receiving folder.
+    
+    rsync -avz --delete [put folder path of what you want to back up] [put folder path of where you want it backed up] #command for syncing as --delete will delete files on the receiving folder, i.e. if you deleted the file in the originating folder, the file will also be deleted in the receiving folder, so both folders will mirror each other.
+    ```
+
+3. Make sure script is executable.
+    ```s
+    sudo chmod +x backup.sh
+    ```
+
+4. Open crontab. If prompted, select 1 for the nano editor.
+    ```s
+    sudo crontab -e
+    ```
+
+5. Append the following to the bottom of the crontab page.
+    ```s
+    0 16 * * * sh backup.sh
+    ```
+
+    - Time format is min/hour/day/month/day-of-the-week.
+    - Time is in UTC, so midnight Philippine time is 1600.
+    - Script name backup.sh will execute everyday at midnight.
+
 #### 1.12 TLP
 - Battery management, good for laptops that are always plugged in.
 - A plus for laptops turned into servers is that the battery is effectively a UPS.
@@ -262,6 +299,7 @@ syncthing:
     ```
     # Set to 0 to disable, 1 to enable TLP.
     # Default: 1
+
     # TLP_ENABLE=1
     ```
 
@@ -289,6 +327,7 @@ Serves as a back-up NAS.
 
 Current services I run on it:
 1. Docker
-2. Syncthing
-3. rsync
-4. Tailscale
+2. Pi-Hole
+3. Syncthing
+4. rsync
+5. Tailscale
