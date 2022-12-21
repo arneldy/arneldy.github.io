@@ -6,12 +6,11 @@ title: 'Garden'
 Documentation for my balcony garden.
 
 #### Tomato Masterblend Mixing Formula
-|Liters|4-18-38 (g)|MgSO4 (g)|Ca(NO2)2 (g)|
-|---|---|---|---|
-|4|2.4|1.5|2.4|
-|2.7|1.6|1.0|1.6|
-|2|1.2|0.75|1.2|
-|1|0.6|0.375|0.6|
+- Liters = 4-18-38 (g) + MgSO4 (g) + Ca(NO2)2 (g) (add last)
+- 4.0 = 2.4 + 1.50 + 2.4
+- 2.7 = 1.6 + 1.00 + 1.6
+- 2.0 = 1.2 + 0.75 + 1.2
+- 1.0 = 0.6 + 0.38 + 0.6
 
 #### 12.18.22
 - Ripening well
