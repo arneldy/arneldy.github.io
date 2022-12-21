@@ -6,7 +6,7 @@ title: 'Garden'
 Documentation for my balcony garden.
 
 #### Tomato Masterblend Mixing Formula
-|Liters|4-18-38 (g)|MgSO4 (g)|CaN (g)|
+|Liters|4-18-38 (g)|MgSO4 (g)|Ca(NO2)2 (g)|
 |---|---|---|---|
 |4|2.4|1.5|2.4|
 |2.7|1.6|1.0|1.6|
