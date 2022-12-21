@@ -6,6 +6,7 @@ title: 'Garden'
 Documentation for my balcony garden.
 
 #### Tomato Masterblend Mixing Formula
+- [Masterblend website](https://www.masterblend.com/4-18-38-tomato-formula/)
 - Liters = 4-18-38 (g) + MgSO4 (g) + Ca(NO2)2 (g) (add last)
 - 4.0 = 2.4 + 1.50 + 2.4
 - 2.7 = 1.6 + 1.00 + 1.6
