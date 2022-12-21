@@ -17,9 +17,6 @@ Documentation for my balcony garden.
 ![New batch](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103434.jpg)
 
 #### 12.14.22
-- Blooming garden
-![Blooming](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221214_172644.jpg)
-
 - First ripe fruit harvested
 ![Ripe red](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221214_172634.jpg)
 ![First harvest](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221214_172759.jpg)
