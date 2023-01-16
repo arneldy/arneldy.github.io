@@ -14,14 +14,14 @@ Documentation for my balcony garden.
 - 1.00 = 0.60 + 0.38 + 0.60
 
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230115_102443.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230115_102443.jpg)
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230114_090618.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230114_090618.jpg)
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163501.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163501.jpg)
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163309.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163309.jpg)
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103434.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103434.jpg)
 
-(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221207_104006.jpg)
+![](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221207_104006.jpg)
