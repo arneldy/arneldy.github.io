@@ -13,27 +13,15 @@ Documentation for my balcony garden.
 - 2.00 = 1.20 + 0.75 + 1.20
 - 1.00 = 0.60 + 0.38 + 0.60
 
-#### 12.18.22
-- Ripening well
-![Ripening well](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221218_170903.jpg)
 
-#### 12.17.22
-- Gradual ripening
-![Gradual ripening](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103423.jpg)
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230115_102443.jpg)
 
-- New batch
-![New batch](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103434.jpg)
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230114_090618.jpg)
 
-#### 12.14.22
-- First ripe fruit harvested
-![Ripe red](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221214_172634.jpg)
-![First harvest](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221214_172759.jpg)
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163501.jpg)
 
-#### 12.09.22
-- Cloudy to rainy, 28C
-![First ripening](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221209_103734.jpg)
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20230111_163309.jpg)
 
-#### 12.07.22
-- Sunny, 32C
-![Flowering](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221207_103937.jpg)
-![Ripening cherry tomatoes](https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img//projects/garden/20221207_104006.jpg)
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221217_103434.jpg)
+
+(https://raw.githubusercontent.com/arneldy/arneldy.github.io/gh-pages/assets/img/projects/garden/20221207_104006.jpg)
